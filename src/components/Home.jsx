@@ -7,7 +7,7 @@ const Home = () => {
   const [news, setNews] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [visibleCount, setVisibleCount] = useState(6); 
-  const apiKey = "24b2ba57bdb94b4c83100c5ed6fc33a3"; 
+  const apiKey = "75fb17c0265e4e6aa3b95623302f46a6"; 
 
   useEffect(() => {
     const categories = ["sports", "entertainment", "technology", "general"];

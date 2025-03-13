@@ -16,10 +16,10 @@ const Navbar = () => {
                 </div>
                 <div className='nav-links-mid'>
                     <Link to='/'>Home</Link>
-                    <Link to='/technology'>Technology</Link>
-                    <Link to='/politics'>Politics</Link>
-                    <Link to='/sports'>Sports</Link>
-                    <Link to='/entertainment'>Entertainment</Link>
+                    <Link to='technology'>Technology</Link>
+                    <Link to='politics'>Politics</Link>
+                    <Link to='sports'>Sports</Link>
+                    <Link to='entertainment'>Entertainment</Link>
                 </div>
             </div>
 

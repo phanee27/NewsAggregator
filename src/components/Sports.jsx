@@ -10,7 +10,7 @@ const Sports = () => {
   const fetchNews = () => {
     axios
       .get(
-        `https://newsapi.org/v2/top-headlines?category=sports&country=us&pageSize=10&page=${page}&apiKey=24b2ba57bdb94b4c83100c5ed6fc33a3`
+        `https://newsapi.org/v2/top-headlines?category=sports&country=us&pageSize=10&page=${page}&apiKey=75fb17c0265e4e6aa3b95623302f46a6`
       )
       .then((response) => {
         // Use a Set to ensure unique articles based on the title

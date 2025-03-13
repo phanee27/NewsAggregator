@@ -10,7 +10,7 @@ const Politics = () => {
   const fetchNews = () => {
     axios
       .get(
-        `https://newsapi.org/v2/top-headlines?category=politics&country=us&pageSize=10&page=${page}&apiKey=24b2ba57bdb94b4c83100c5ed6fc33a3`
+        `https://newsapi.org/v2/top-headlines?category=politics&country=us&pageSize=10&page=${page}&apiKey=75fb17c0265e4e6aa3b95623302f46a6`
       )
       .then((response) => {
         setNews((prevNews) => [...prevNews, ...response.data.articles]);

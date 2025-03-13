@@ -23,7 +23,7 @@
 }
 
 
-/* Navbar Left Side */
+
 .nav-links-head {
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@
     font-size: larger;
 }
 
-/* Navbar Center Links */
+
 .nav-links-mid {
     display: flex;
     align-items: center;
@@ -45,19 +45,19 @@
     font-size: large;
 }
 
-/* Navigation Routes Section */
+
 .nav-routes {
     margin-top: 20px;
 }
 
-/* Body Styling */
+
 body {
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .nav-links {
         flex-wrap: wrap;
@@ -70,13 +70,15 @@ body {
         width: 100%;
         justify-content: center;
         margin-left: 0;
-        gap: 15px;
+        gap: 25px;
+        margin-bottom: 10px;
     }
 
     .nav-links-head {
         margin-left: 0;
         text-align: center;
         width: 100%;
+        justify-content: center;
     }
 }
 
