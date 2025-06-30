@@ -7,7 +7,7 @@ const NewsCard = ({ article }) => {
     <CardMedia
         component="img"
         height="200"
-        image={article.urlToImage || "https://placehold.co/300x200?text=No+Image+Available"}
+        image={article.urlToImage || "http://placehold.co/300x200?text=No+Image+Available"}
         alt={article.title}
     />
 

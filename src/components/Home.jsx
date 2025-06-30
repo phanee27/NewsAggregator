@@ -14,7 +14,7 @@ const Home = () => {
 
     Promise.all(
       categories.map(category =>
-        axios.get(`https://newsapi.org/v2/top-headlines?category=${category}&country=us&pageSize=5&apiKey=${apiKey}`)
+        axios.get(`http://newsapi.org/v2/top-headlines?category=${category}&country=us&pageSize=5&apiKey=${apiKey}`)
       )
     )
       .then(responses => {
